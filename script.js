@@ -8,7 +8,7 @@ let addButton = document.getElementById("addQueue")
 let displayButton = document.getElementById("displayQueue")
 let message = document.getElementById("message")
 
-let queue =  {};
+//let queue =  {};
 
 
 //runs when addButton is clicked
@@ -38,7 +38,7 @@ person.prototype.addPerson = function(){
 
     
     const person = new person(this.name,this.age, this.email);
-    queue[i] = person;
+    //queue[i] = person;
 }
 }
 //runs when displayButton is clicked
